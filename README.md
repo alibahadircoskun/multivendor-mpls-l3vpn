@@ -47,7 +47,6 @@ Customer Edge (Cisco IOS):
 | `README.md`           | Main documentation for the lab |
 | `topology/`           | Contains topology diagrams |
 |  `MPLS-L3VPN.png`  | Topology image |
-|  `topology-diagram.drawio` | Editable topology diagram |
 | `configs/`            | Device configurations |
 |  `provider/`       | Provider (PE/P) configs |
 |  `PE1.conf`      | PE1 configuration |
