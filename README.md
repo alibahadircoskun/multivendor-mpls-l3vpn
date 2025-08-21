@@ -42,26 +42,28 @@ Customer Edge (Cisco IOS):
 ---
 
 ## Repository Structure
-mpls-l3vpn-lab/
-│── README.md
-│── topology/
-│ ├── MPLS-L3VPN.png
-│ ├── topology-diagram.drawio
-│── configs/
-│ ├── provider/
-│ │ ├── PE1.conf
-│ │ ├── PE2.conf
-│ │ ├── P1.conf
-│ │ ├── P2.conf
-│ ├── customer/
-│ │ ├── CE1-R1.conf
-│ │ ├── CE1-R2.conf
-│ │ ├── CE2-R1.conf
-│ │ ├── CE2-R2.conf
-│── notes/
-│ ├── isis.md
-│ ├── mpls-ldp.md
-│ ├── mp-bgp.md
-│ ├── vrf.md
-│ ├── ospf-pe-ce.md
-│ ├── sham-link.md
+| Path                  | Description |
+|------------------------|-------------|
+| `README.md`           | Main documentation for the lab |
+| `topology/`           | Contains topology diagrams |
+| ├── `MPLS-L3VPN.png`  | Topology image |
+| ├── `topology-diagram.drawio` | Editable topology diagram |
+| `configs/`            | Device configurations |
+| ├── `provider/`       | Provider (PE/P) configs |
+| │ ├── `PE1.conf`      | PE1 configuration |
+| │ ├── `PE2.conf`      | PE2 configuration |
+| │ ├── `P1.conf`       | P1 configuration |
+| │ ├── `P2.conf`       | P2 configuration |
+| ├── `customer/`       | Customer CE configs |
+| │ ├── `CE1-R1.conf`   | Customer1 Router1 config |
+| │ ├── `CE1-R2.conf`   | Customer1 Router2 config |
+| │ ├── `CE2-R1.conf`   | Customer2 Router1 config |
+| │ ├── `CE2-R2.conf`   | Customer2 Router2 config |
+| `notes/`              | Technology explanation notes |
+| ├── `isis.md`         | IS-IS explanation |
+| ├── `mpls-ldp.md`     | MPLS LDP explanation |
+| ├── `mp-bgp.md`       | MP-BGP explanation |
+| ├── `vrf.md`          | VRF concepts |
+| ├── `ospf-pe-ce.md`   | OSPF between PE and CE |
+| ├── `sham-link.md`    | OSPF sham-link explanation |
+
