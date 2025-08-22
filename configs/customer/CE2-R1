@@ -1,0 +1,7 @@
+hostname CE2-R1
+interface Loopback0
+ ip address 10.10.10.1 255.255.255.255
+interface GigabitEthernet0/0
+ ip address 10.0.10.2 255.255.255.0
+router ospf 1
+ network 0.0.0.0 255.255.255.255 area 0
